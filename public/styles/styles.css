@@ -1,0 +1,90 @@
+html,
+body,
+#wrapper,
+.map,
+#map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+#panel {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+#menu-toggle {
+	position: absolute;
+	left: 250px;
+	z-index: 100;
+}
+
+.sidebar-search {
+	border-bottom: 2px solid #EBEBEB;
+	padding: 20px;
+}
+
+.sidebar-nav {
+	position: static;
+}
+
+.logo {
+	width: 100%;
+	padding: 10px;
+}
+
+
+button {
+	background-color: #3366ff;
+	border-image: none;
+	border: 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+
+
+.Location{
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+
+
+}
+
+.Time{
+    font-size: 13px;
+    color: #012695;
+}
+
+.sidebar-brand{
+    font-weight: bold;
+
+}
+
+.listTitle{
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 18px;
+
+}
+
+.PropertyListItem {
+	margin-top: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.PropertyListItem:hover {
+    background-color: #000000;
+}
+
