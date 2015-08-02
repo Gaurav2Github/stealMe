@@ -1,7 +1,7 @@
-Open home scheduler
+Steal-Me
 ==================
 
-Uses the Trade Me API to show your open home schedule.
+Uses the Trade Me API to load raffels .
 
 
 Installation
